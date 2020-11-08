@@ -130,8 +130,8 @@ img {
   }
 
  	.footer {
-  	display: block;
-		overflow: auto;
+  	/*display: block;*/
+		/*overflow: auto;*/
 		font-size: 8pt;
 		height: 100%;
 		width: 100%;
