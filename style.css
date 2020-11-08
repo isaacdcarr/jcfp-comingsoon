@@ -7,7 +7,7 @@
  */
 
 body {
-	background-color: #CEE1F5;
+	background-color: #3A5572;
 	font-family: 'Poppins', sans-serif;
 	font-size: 20pt;
 	width: 100vw;
@@ -81,7 +81,7 @@ img {
 
   /* Setting width & height to auto prevents the browser from stretching or squishing the video */
   width: 100vw;
-  height: auto;
+  height: 100vh;
 
   /* Center the video */
   position: absolute;
@@ -129,13 +129,17 @@ img {
   	bottom: 15%;
   }
 
+  .video-container
+
  	.footer {
-  	/*display: block;*/
-		/*overflow: auto;*/
+  	display: block;
+		overflow: auto;
+		position: absolute;
 		font-size: 8pt;
 		height: 100%;
 		width: 100%;
 		max-height: 100px;
+		bottom: 0;
   }
 }
 
