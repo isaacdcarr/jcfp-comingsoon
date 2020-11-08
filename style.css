@@ -129,7 +129,7 @@ img {
   }
 
  	.footer {
-  	/*position: relative;*/
+  	position: absolute;
   	display: block;
 		overflow: auto;
 		font-size: 8pt;
