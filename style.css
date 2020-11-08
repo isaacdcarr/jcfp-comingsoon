@@ -100,11 +100,12 @@ img {
 	display: flex;
   align-items: center;
   overflow-wrap: break-word;
+  text-align: center;
 }
 
 #footer-text {
   color: #CEE1F5;
-  /*width: 100%;*/
+  width: 100%;
 }
 
 /* Mobile */
@@ -129,7 +130,6 @@ img {
   }
 
  	.footer {
-  	position: absolute;
   	display: block;
 		overflow: auto;
 		font-size: 8pt;
