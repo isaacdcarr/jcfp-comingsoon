@@ -74,7 +74,7 @@ img {
   z-index: -1;
 }
 
-.video-container video {
+.video-container img {
   /* Make video to at least 100% wide and tall */
   min-width: 100%; 
   min-height: 100%; 
