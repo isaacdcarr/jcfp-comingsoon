@@ -9,152 +9,93 @@
 body {
 	background-color: #3A5572;
 	font-family: 'Poppins', sans-serif;
-	font-size: 20pt;
-	width: 100vw;
-	height: 100vh;
-	padding: 0;
-	margin: 0;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	background-image: url("img/run_small.gif");
+	background-position-x: center;
+	background-position-y: bottom; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-img {
-	width: 200px;
-}
- 
-#title {
-	width: 100%;
-	text-align: center;
-	font-size: 44pt;
+#heading {
 	color: white;
 	font-weight: bold;
 }
 
-#quote {
-	width: 100%;
-	text-align: center;
+#subheading {
 	color: #203859;
-	font-size: 24pt;
-  transform: translate(0%,-25%);
-}
-
-.container {
-	width: 100%;
-	height: 90vh;
+	transform: translate(0, -15%);
 }
 
 #logo {
-	position: fixed;
-	bottom: 12.5%;
-	left: 15px;
 	width: 12.5%;
 	max-width: 200px;
 	min-width: 100px;
 }
 
 #contact {
-	position: fixed;
-	bottom: 12.5%;
-	right: 15px;
 	color: white;
 	text-align: right;
+	position: fixed;
+	bottom: 12%;
+	right: 15px;
+	width: 100%;
 }
 
-#phone, a {
+#email a, #phone {
 	color: #203859;
 }
 
-.video-container {
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 90%; 
-  overflow: hidden;
-  z-index: -1;
-}
-
-.video-container img {
-  /* Make video to at least 100% wide and tall */
-  min-width: 100%; 
-  min-height: 100%; 
-
-  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
-  width: 100vw;
-  height: 90vh;
-
-  /* Center the video */
-  position: absolute;
-  top: 50%;
-  left: 48%;
-  transform: translate(-48%,-50%);
-  object-fit: cover;
-}
-
-.footer {
-	position: fixed;
-	font-size: 8pt;
-	text-align: center; 
-	padding: 0;
-	margin: 0;
+#footer {
 	background-color: #3A5572;
+	color: #CEE1F5;
+	text-align: center;
+	width: 100%;
+	padding: 7.5px;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	word-break: normal;
+	min-height: 8%;
+	max-height: 10%;
+	overflow-wrap: break-word;
 	display: flex;
-  align-items: center;
-  overflow-wrap: break-word;
-  text-align: center;
-  z-index: 2;
+	align-items: center;
+	width: 100%;
 }
 
-#footer-text {
-  color: #CEE1F5;
-  width: 100%;
+#footer-content {
+	width: 100%;
 }
 
 /* Mobile */
 @media only screen and (max-width: 500px) {
-  #title {
-  	font-size: 24pt;
-  }
+	#heading { font-size: 24pt; }
+	#subheading { font-size: 15pt; }
+	#contact { font-size: 12pt; }
+	#footer { font-size: 7pt; }
 
-  #quote {
-  	font-size: 16pt;
-  }
-
-  #logo {
-  	position: absolute;
-  	top: 15%;
-  	left: 75%;
-  }
-
-  #contact {
-  	font-size: 18pt;
-  	bottom: 15%;
-  }
-
-  .video-container
-
- 	.footer {
-  	display: block;
-		overflow: auto;
+	#logo {
 		position: absolute;
-		font-size: 6.5pt;
-		height: 100%;
-		width: 99%;
-		max-height: 100px;
-		bottom: 0;
-  }
+		top: 15%;
+		right: 5%;
+	}
 }
 
- /*Desktop*/
-@media only screen and (min-width:500px) {
-	.footer {
+ /* Desktop */
+@media only screen and (min-width:499px) {
+	#heading { font-size: 44pt; }
+	#subheading { font-size: 24pt; }
+	#contact { font-size: 18pt; }
+	#footer { font-size: 8pt; }
+
+	#logo {
 		position: fixed;
-		font-size: 8pt;
-		text-align: center; 
-		width: 100%;
-		height: 10vh;
-		background-color: #3A5572;
-		display: flex;
-	  align-items: center;
+		bottom: 12%;
+		left: 15px;
 	}
 }
