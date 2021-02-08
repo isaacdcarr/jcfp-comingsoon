@@ -1,0 +1,62 @@
+/*
+ * COLOUR SCHEME 
+ * Danube - #7BA5D3 (med blue)
+ * Cello - #203859 (dark blue)
+ * Link Water - #CEE1F5 (light blue)
+ * San Juan - #3A5572 (steel blue)
+ */
+body {
+	font-family: 'Poppins Light', sans-serif;
+	font-size: 9pt;
+	font-weight: lighter;
+	color: #3A5572;
+}
+
+a {
+	color: #3A5572;
+}
+
+table { 
+	width: 500px;
+}
+
+#c1 {
+	padding: 2px;
+	width: 100px;
+	contain: content;
+	align-items: center;
+}
+
+#c2 {
+	padding: 5px 5px 5px 12px;
+	width: 300px;
+}
+
+#profile {
+	width: 100px;
+	border-radius: 50px;
+}
+
+#logo {
+	width: 100px;
+}
+
+#name { 
+	font-size: 28pt; 
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#first { color: #203859; }
+#last { color: #7BA5D3; }
+#byline {
+	padding-bottom: 0px;
+}
+
+.footer {
+	font-size: 8pt;
+}
+
+.fas {
+	color: #203859;
+}
